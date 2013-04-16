@@ -1,13 +1,9 @@
 define([
     'backbone',
-    'modules/stations/collections/stations',
-    'modules/stations/views/list',
     'modules/tabs/collections/tabs',
     'modules/tabs/views/list'
 ], function(
     Backbone,
-    Stations,
-    ListView,
     Tabs,
     TabsView
 ){
